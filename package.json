@@ -2,10 +2,12 @@
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://uday-damerla.github.io/portfolio",
+  "homepage": "https://uday-damerla.github.io/myportfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run-script preview",
+    "deploy":"gh-pages -d preview",
     "build": "vite build",
     "preview": "vite preview"
   },

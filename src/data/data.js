@@ -1,27 +1,38 @@
-
+import dmy from "../assets/dmy.png";
+import l2c from "../assets/l2c.png";
+import portfolio from "../assets/portfolio.png";
+import presentation from "../assets/presentation.png";
 
 export const data = [
   {
     id: 1,
-    img: 'https://i.postimg.cc/VkRWdHWx/57214s81.jpg',
-    title: "Multimedia Web",
+    img:dmy,
+    title: "Digi Yard",
     desc: "",
-    link: "",
+    link: "https://dmy.udaydamerla.me/",
     git: "",
   },
   {
     id: 2,
-    img: 'https://i.postimg.cc/Bv75CLyN/4167022.jpg',
-    title: "Tarvel Agency",
-    link: "",
+    img: l2c,
+    title: "Lang2Code",
+    link: "http://l2c.udaydamerla.me/",
     git: "",
   },
   {
     id: 3,
-    img: 'https://i.postimg.cc/wBjcJcW7/5890625.jpg',
-    title: "Music Player",
+    img: portfolio,
+    title: "Sample protfolio",
     desc: "",
-    link: "",
+    link: "https://sp.udaydamerla.me/",
+    git: "",
+  },
+  {
+    id: 4,
+    img: presentation,
+    title: "presentation",
+    desc: "",
+    link: "https://tcwebinar.udaydamerla.me/",
     git: "",
   }
   
